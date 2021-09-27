@@ -1,7 +1,7 @@
 import React from 'react';
 import '../index.css';
 //Component import
-import VideoCard from "../components/videoCard"
+//import VideoCard from "../components/videoCard"
 import Videos from "./Videos";
 
 function Home() {

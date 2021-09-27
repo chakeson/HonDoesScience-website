@@ -1,3 +1,7 @@
+# Temporary hosting done on netlify
+How to make react work with it
+https://dev.to/dance2die/page-not-found-on-netlify-with-react-router-58mc
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
