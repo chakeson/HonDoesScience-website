@@ -18,12 +18,16 @@ html,body {
   height: -webkit-calc(100vh - 4em);
 }
 
-.test {
-  height: 80vh;
+.videoH {
+  min-height: calc(100vh - 4em - 9rem);
+  min-height: -moz-calc(100vh - 4em - 9rem);
+  min-height: -webkit-calc(100vh - 4em - 9rem);
 }
 
-.test2 {
-  height: calc(100% - 4em);
+.researchH {
+  min-height: calc(100vh - 4em - 9rem);
+  min-height: -moz-calc(100vh - 4em - 9rem);
+  min-height: -webkit-calc(100vh - 4em - 9rem);
 }
 
 /*

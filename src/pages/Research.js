@@ -6,7 +6,7 @@ import ResearchCard from "../components/researchCard";
 
 function Research() {
 	return (
-		<div className="flex flex-col items-center bg-secondary">
+		<div className="flex flex-col items-center bg-secondary researchH">
 			{researchData.map((item, index)=>{
 				return <ResearchCard key={index} {...item} />
 			})}

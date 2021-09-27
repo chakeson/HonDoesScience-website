@@ -11,7 +11,7 @@ function Videos() {
 	//const rowCountSmall = Math.ceil((videoCount/2));
 	//{`grid grid-flow-row grid-cols-3 gap-3 sm:grid-rows-${rowCountSmall} md:grid-rows-${rowCountMedium} lg:grid-rows-${rowCountBig}`}
 	return (
-		<article className="bg-secondary w-full">
+		<article className="bg-secondary w-full videoH">
 			<div className="py-7">
 				<div className="grid grid-cols-1 2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 gap-4 justify-items-center items-center">
 					{videoData.map((item, index)=>{
