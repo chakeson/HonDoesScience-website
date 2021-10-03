@@ -5,11 +5,6 @@ import videoData from '../components/videoData';
 import VideoCard from "../components/videoCard"
 
 function Videos() {
-	//const videoCount = videoData.length;
-	//const rowCountBig = Math.ceil((videoCount/4));
-	//const rowCountMedium = Math.ceil((videoCount/3));
-	//const rowCountSmall = Math.ceil((videoCount/2));
-	//{`grid grid-flow-row grid-cols-3 gap-3 sm:grid-rows-${rowCountSmall} md:grid-rows-${rowCountMedium} lg:grid-rows-${rowCountBig}`}
 	return (
 		<article className="bg-secondary w-full videoH">
 			<div className="py-7">
