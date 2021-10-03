@@ -9,9 +9,9 @@ function Home() {
 		<>
 		<article className="w-full relative">
 			<div className="w-full h-full flex flex-col absolute top-0 left-0 justify-center pl-20">
-				<div className="text-secondary font-bold text-3xl">Smaller pitch!</div>
-				<div className="text-white font-extrabold text-6xl py-1">Lorem Sales</div>
-				<div className="text-white font-extrabold text-6xl py-1">text lorem lorem</div>
+				<div className="text-secondary font-bold text-3xl">Bringing Science Home</div>
+				<div className="text-white font-extrabold text-6xl py-1">Hon Does</div>
+				<div className="text-white font-extrabold text-6xl py-1 pb-2">Science</div>
 				<button className="bg-tertiary w-40 h-14 p-2.5 rounded-full flex-wrap content-start text-2xl text-bold text-white transform transition duration-700 hover:scale-105 hover:text-black">
 					My Channel
 				</button>
