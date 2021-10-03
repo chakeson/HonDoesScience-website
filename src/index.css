@@ -30,6 +30,31 @@ html,body {
   min-height: -webkit-calc(100vh - 4em - 9rem);
 }
 
+/*Chrome and webkit*/
+::-webkit-scrollbar {
+  width: 1.3rem;
+  background: linear-gradient(to bottom, #1010a3, #0058ca, #008ddd, #76bfe7, #d4ecf4); /*linear-gradient(to bottom, #1010a3, #604dbd, #9686d6, #c9c2ec, #ffffff)*/;
+}
+
+::-webkit-scrollbar-track {
+  background: #D4ECF4;
+  border-radius: 100vw;
+  margin-block: .1rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1010A3;
+  border-radius: 100vw;
+  border: 0.2rem solid #D4ECF4;
+}
+
+/*Firefox scrollbar*/
+@supports (scrollbar-color: grey grey) {
+  * {
+    scrollbar-color: #1010A3 #D4ECF4;
+  }
+}
+
 /*
 @layer base {
     @font-face {

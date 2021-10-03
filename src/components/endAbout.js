@@ -37,7 +37,7 @@ function EndAbout() {
 					Site was made by 
 					<a  className="flex flex-row px-1 transform transition duration-700 hover:scale-105 hover:text-black" href="https://github.com/chakeson" style={{justifyContent:"center",alignItems:"center"}}>
 						chakeson
-						<AiFillGithub />
+						<AiFillGithub className="ml-1"/>
 					</a>
 					
 				</p>

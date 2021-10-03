@@ -14,7 +14,9 @@ function Navbar() {
             <div className="max-w-7xl mx-auto px-12">
                 <div className="flex justify-between">
                     <div className="py-1 flex items-center">
-                        <GiDna1 size="4em" color="white"/>
+                        <Link to="/">
+                            <GiDna1 size="4em" color="white"/>
+                        </Link>
                     </div>
 
                     {/*PC navbar*/}
